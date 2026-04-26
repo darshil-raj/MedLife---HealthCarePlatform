@@ -1,0 +1,149 @@
+.consultations {
+  min-height: calc(100vh - 70px);
+  background: var(--bg-section);
+}
+
+.filter-tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.filter-tab {
+  padding: 0.625rem 1.25rem;
+  border: 2px solid rgba(10, 110, 189, 0.1);
+  background: white;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  color: var(--text-muted);
+}
+
+.filter-tab:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.filter-tab.active {
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: white;
+  border-color: var(--primary);
+}
+
+.consultations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 1.5rem;
+}
+
+.consultation-detail-card {
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: var(--radius-md);
+  box-shadow: var(--card-shadow);
+  border: 1px solid rgba(10, 110, 189, 0.08);
+  backdrop-filter: blur(10px);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.consultation-detail-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--card-hover);
+}
+
+.consultation-header {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(10, 110, 189, 0.1);
+}
+
+.doctor-photo-lg {
+  width: 80px;
+  height: 80px;
+  border-radius: var(--radius-sm);
+  object-fit: cover;
+  border: 2px solid rgba(10, 110, 189, 0.1);
+}
+
+.consultation-header-info h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+  color: var(--text-dark);
+  font-weight: 700;
+}
+
+.consultation-header-info .specialization {
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.consultation-header-info .hospital {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.consultation-details {
+  margin-bottom: 1.5rem;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(10, 110, 189, 0.05);
+}
+
+.detail-row:last-child {
+  border-bottom: none;
+}
+
+.detail-row .label {
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.detail-row .value {
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.consultation-actions-row {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.consultation-actions-row .btn {
+  flex: 1;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .consultations-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .consultation-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .filter-tabs {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 0.5rem;
+  }
+  
+  .filter-tab {
+    white-space: nowrap;
+  }
+}

@@ -1,0 +1,292 @@
+/* ── SEARCH TABS ── */
+.search-tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(12px);
+  border-radius: var(--radius-lg);
+  padding: 0.35rem;
+  border: 1px solid var(--card-border);
+}
+
+.tab {
+  flex: 1;
+  padding: 0.75rem 1.25rem;
+  border-radius: var(--radius-md);
+  border: none;
+  background: transparent;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: var(--text-muted);
+  font-family: 'Inter', sans-serif;
+}
+
+.tab.active {
+  background: white;
+  color: var(--primary);
+  box-shadow: 0 2px 12px rgba(10, 110, 189, 0.12);
+}
+
+.tab:hover:not(.active) { background: rgba(10, 110, 189, 0.04); color: var(--primary); }
+
+/* ── SEARCH LAYOUT ── */
+.search-layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+/* ── FILTERS ── */
+.filter-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  box-shadow: var(--card-shadow);
+  border: 1px solid var(--glass-border);
+  position: sticky;
+  top: 5rem;
+}
+
+.filter-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  color: var(--text-dark);
+}
+
+.required { color: var(--danger); }
+
+.checkbox-row {
+  margin-bottom: 0.75rem;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: var(--text-body);
+}
+
+.checkbox-label input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--primary);
+}
+
+.search-btn-full {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+/* ── RESULTS ── */
+.results-info {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.results-count {
+  font-size: 0.95rem;
+  color: var(--text-body);
+}
+
+/* ── DOCTOR CARDS ── */
+.doctor-card {
+  background: var(--card-bg);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: var(--card-shadow);
+  border: 1px solid var(--card-border);
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: fadeInUp 0.5s ease forwards;
+  opacity: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.doctor-card::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: var(--gradient-primary);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.doctor-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--card-hover);
+}
+
+.doctor-card:hover::after { opacity: 1; }
+
+/* Staggered entrance */
+.doctor-card:nth-child(1) { animation-delay: 0.05s; }
+.doctor-card:nth-child(2) { animation-delay: 0.10s; }
+.doctor-card:nth-child(3) { animation-delay: 0.15s; }
+.doctor-card:nth-child(4) { animation-delay: 0.20s; }
+.doctor-card:nth-child(5) { animation-delay: 0.25s; }
+.doctor-card:nth-child(6) { animation-delay: 0.30s; }
+.doctor-card:nth-child(7) { animation-delay: 0.35s; }
+.doctor-card:nth-child(8) { animation-delay: 0.40s; }
+.doctor-card:nth-child(n+9) { animation-delay: 0.45s; }
+
+.doctor-main {
+  display: flex;
+  gap: 1rem;
+  flex: 1;
+}
+
+.doctor-photo {
+  width: 72px;
+  height: 72px;
+  border-radius: 18px;
+  object-fit: cover;
+  border: 3px solid rgba(10, 110, 189, 0.1);
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.doctor-details h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.doctor-details .spec {
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.15rem;
+}
+
+.doctor-details .hospital {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-bottom: 0.15rem;
+}
+
+.doctor-details .location {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.doctor-meta {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  font-size: 0.82rem;
+  margin-bottom: 0.5rem;
+}
+
+.rating { color: #F59E0B; font-weight: 600; }
+.reviews { color: var(--text-light); }
+.exp { color: var(--text-muted); font-weight: 500; }
+.dist { color: var(--accent); font-weight: 600; }
+
+.tags { display: flex; gap: 0.35rem; flex-wrap: wrap; }
+.lang-tag {
+  padding: 0.2rem 0.55rem;
+  border-radius: var(--radius-full);
+  background: rgba(10, 110, 189, 0.06);
+  color: var(--primary);
+  font-size: 0.72rem;
+  font-weight: 500;
+  border: 1px solid rgba(10, 110, 189, 0.08);
+}
+
+/* ── DOCTOR ACTIONS ── */
+.doctor-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.fee-display {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.35rem;
+  font-weight: 800;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.action-badges {
+  display: flex;
+  gap: 0.35rem;
+}
+
+/* ── BOOKING MODAL EXTRAS ── */
+.slots-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.slot-btn {
+  padding: 0.5rem;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid #E2E8F0;
+  background: white;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: 'Inter', sans-serif;
+}
+
+.slot-btn:hover { border-color: var(--primary); color: var(--primary); }
+.slot-btn.selected {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.booking-fee {
+  padding: 0.75rem 1rem;
+  background: rgba(10, 110, 189, 0.05);
+  border-radius: var(--radius-sm);
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.search-tips {
+  text-align: left;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.search-tips ul { padding-left: 1.25rem; margin-top: 0.35rem; }
+.search-tips li { margin-bottom: 0.25rem; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .search-layout { grid-template-columns: 1fr; }
+  .filter-card { position: static; }
+  .doctor-card { flex-direction: column; }
+  .doctor-actions { align-items: flex-start; flex-direction: row; flex-wrap: wrap; }
+}
