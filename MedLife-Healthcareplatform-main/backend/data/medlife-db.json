@@ -989,14 +989,14 @@
       "phone": "044-28290200",
       "emergency_available": 1,
       "total_beds": 500,
-      "available_beds": 105,
+      "available_beds": 99,
       "icu_total": 80,
-      "icu_available": 23,
+      "icu_available": 15,
       "ventilators_total": 40,
-      "ventilators_available": 20,
+      "ventilators_available": 22,
       "specialties": "[\"Cardiology\",\"Oncology\",\"Neurology\",\"Orthopedics\",\"Transplant\"]",
       "rating": 4.7,
-      "last_updated": "2026-04-26T12:39:55.381Z"
+      "last_updated": "2026-04-26T13:04:03.386Z"
     },
     {
       "id": "2454f545-e790-49d5-b3c8-b0d99c0c06b5",
@@ -1009,14 +1009,14 @@
       "phone": "011-26588500",
       "emergency_available": 1,
       "total_beds": 2400,
-      "available_beds": 372,
+      "available_beds": 377,
       "icu_total": 200,
-      "icu_available": 26,
+      "icu_available": 39,
       "ventilators_total": 100,
-      "ventilators_available": 18,
+      "ventilators_available": 14,
       "specialties": "[\"All Specialties\",\"Super Specialties\",\"Research\"]",
       "rating": 4.9,
-      "last_updated": "2026-04-26T12:39:55.390Z"
+      "last_updated": "2026-04-26T13:04:03.388Z"
     },
     {
       "id": "4329bb80-8896-435f-8f67-943b8662be75",
@@ -1029,14 +1029,14 @@
       "phone": "022-26751000",
       "emergency_available": 1,
       "total_beds": 320,
-      "available_beds": 17,
+      "available_beds": 6,
       "icu_total": 50,
-      "icu_available": 2,
+      "icu_available": 7,
       "ventilators_total": 25,
-      "ventilators_available": 5,
+      "ventilators_available": 0,
       "specialties": "[\"Cardiology\",\"Oncology\",\"Nephrology\",\"Gastroenterology\"]",
       "rating": 4.8,
-      "last_updated": "2026-04-26T12:39:55.396Z"
+      "last_updated": "2026-04-26T13:04:03.389Z"
     },
     {
       "id": "57d363b8-e975-4d3e-86c9-38ad9643fdf9",
@@ -1049,14 +1049,14 @@
       "phone": "080-66214444",
       "emergency_available": 1,
       "total_beds": 400,
-      "available_beds": 62,
+      "available_beds": 74,
       "icu_total": 60,
-      "icu_available": 6,
+      "icu_available": 3,
       "ventilators_total": 30,
-      "ventilators_available": 5,
+      "ventilators_available": 7,
       "specialties": "[\"Cardiology\",\"Neurology\",\"Orthopedics\",\"Urology\"]",
       "rating": 4.7,
-      "last_updated": "2026-04-26T12:39:55.405Z"
+      "last_updated": "2026-04-26T13:04:03.390Z"
     },
     {
       "id": "a3136f8f-db12-4f05-9bb9-87df111b8339",
@@ -1069,14 +1069,14 @@
       "phone": "040-30417777",
       "emergency_available": 1,
       "total_beds": 450,
-      "available_beds": 96,
+      "available_beds": 108,
       "icu_total": 70,
-      "icu_available": 11,
+      "icu_available": 19,
       "ventilators_total": 35,
       "ventilators_available": 1,
       "specialties": "[\"Cardiology\",\"Neurosciences\",\"Orthopedics\",\"Gastroenterology\"]",
       "rating": 4.6,
-      "last_updated": "2026-04-26T12:39:55.408Z"
+      "last_updated": "2026-04-26T13:04:03.391Z"
     },
     {
       "id": "8e4a0472-752f-4bed-a47b-6abcdcdcf14d",
@@ -1089,14 +1089,14 @@
       "phone": "033-24612626",
       "emergency_available": 1,
       "total_beds": 380,
-      "available_beds": 56,
+      "available_beds": 60,
       "icu_total": 55,
-      "icu_available": 19,
+      "icu_available": 13,
       "ventilators_total": 28,
-      "ventilators_available": 0,
+      "ventilators_available": 5,
       "specialties": "[\"Cardiology\",\"Oncology\",\"Nephrology\",\"Neurology\"]",
       "rating": 4.5,
-      "last_updated": "2026-04-26T12:39:55.412Z"
+      "last_updated": "2026-04-26T13:04:03.392Z"
     },
     {
       "id": "6cfd4bfb-b145-45e5-8fd0-e416ad686844",
@@ -1109,14 +1109,14 @@
       "phone": "020-26163391",
       "emergency_available": 1,
       "total_beds": 350,
-      "available_beds": 67,
+      "available_beds": 72,
       "icu_total": 45,
-      "icu_available": 0,
+      "icu_available": 10,
       "ventilators_total": 22,
-      "ventilators_available": 9,
+      "ventilators_available": 8,
       "specialties": "[\"Cardiology\",\"Oncology\",\"Orthopedics\",\"Neurosurgery\"]",
       "rating": 4.7,
-      "last_updated": "2026-04-26T12:39:55.415Z"
+      "last_updated": "2026-04-26T13:04:03.392Z"
     },
     {
       "id": "1af5f4b0-3cb6-4d35-a1f1-79fe2429e8bb",
@@ -1129,14 +1129,14 @@
       "phone": "079-40011111",
       "emergency_available": 1,
       "total_beds": 280,
-      "available_beds": 59,
+      "available_beds": 53,
       "icu_total": 40,
-      "icu_available": 3,
+      "icu_available": 12,
       "ventilators_total": 20,
-      "ventilators_available": 11,
+      "ventilators_available": 9,
       "specialties": "[\"Cardiology\",\"Neurology\",\"Nephrology\",\"Gastroenterology\"]",
       "rating": 4.6,
-      "last_updated": "2026-04-26T12:39:55.417Z"
+      "last_updated": "2026-04-26T13:04:03.393Z"
     },
     {
       "id": "a1a60d55-ef96-4bb5-a3b5-ff6a3a9ba230",
@@ -1149,14 +1149,14 @@
       "phone": "0141-4515151",
       "emergency_available": 1,
       "total_beds": 300,
-      "available_beds": 22,
+      "available_beds": 11,
       "icu_total": 48,
-      "icu_available": 21,
+      "icu_available": 15,
       "ventilators_total": 24,
-      "ventilators_available": 3,
+      "ventilators_available": 15,
       "specialties": "[\"Cardiology\",\"Oncology\",\"Orthopedics\",\"Pediatrics\"]",
       "rating": 4.5,
-      "last_updated": "2026-04-26T12:39:55.420Z"
+      "last_updated": "2026-04-26T13:04:03.394Z"
     },
     {
       "id": "a891216d-6ab4-4224-98a3-b4563bfbcf9d",
@@ -1169,14 +1169,14 @@
       "phone": "0522-2257540",
       "emergency_available": 1,
       "total_beds": 600,
-      "available_beds": 97,
+      "available_beds": 114,
       "icu_total": 90,
-      "icu_available": 7,
+      "icu_available": 4,
       "ventilators_total": 45,
-      "ventilators_available": 9,
+      "ventilators_available": 19,
       "specialties": "[\"All Specialties\",\"Emergency Medicine\",\"Trauma Care\"]",
       "rating": 4.4,
-      "last_updated": "2026-04-26T12:39:55.425Z"
+      "last_updated": "2026-04-26T13:04:03.395Z"
     },
     {
       "id": "962a0944-a759-444b-9069-f103a5bb4713",
@@ -1189,14 +1189,14 @@
       "phone": "0755-2540090",
       "emergency_available": 1,
       "total_beds": 450,
-      "available_beds": 37,
+      "available_beds": 30,
       "icu_total": 65,
-      "icu_available": 22,
+      "icu_available": 19,
       "ventilators_total": 32,
-      "ventilators_available": 6,
+      "ventilators_available": 12,
       "specialties": "[\"General Medicine\",\"Surgery\",\"Pediatrics\",\"Gynecology\"]",
       "rating": 4.3,
-      "last_updated": "2026-04-26T12:39:55.428Z"
+      "last_updated": "2026-04-26T13:04:03.396Z"
     },
     {
       "id": "c044de0b-9a10-4d5d-9c04-22664dff5b70",
@@ -1209,14 +1209,14 @@
       "phone": "0161-2603070",
       "emergency_available": 1,
       "total_beds": 850,
-      "available_beds": 117,
+      "available_beds": 142,
       "icu_total": 120,
-      "icu_available": 36,
+      "icu_available": 31,
       "ventilators_total": 60,
-      "ventilators_available": 3,
+      "ventilators_available": 1,
       "specialties": "[\"All Specialties\",\"Hematology\",\"Oncology\",\"Transplant\"]",
       "rating": 4.8,
-      "last_updated": "2026-04-26T12:39:55.433Z"
+      "last_updated": "2026-04-26T13:04:03.396Z"
     },
     {
       "id": "a93fd8f0-0e48-4ca1-9680-347d4b9777dd",
@@ -1229,14 +1229,14 @@
       "phone": "0471-3041000",
       "emergency_available": 1,
       "total_beds": 650,
-      "available_beds": 144,
+      "available_beds": 134,
       "icu_total": 85,
-      "icu_available": 0,
+      "icu_available": 4,
       "ventilators_total": 42,
-      "ventilators_available": 18,
+      "ventilators_available": 26,
       "specialties": "[\"Cardiology\",\"Neurology\",\"Nephrology\",\"Gastroenterology\"]",
       "rating": 4.6,
-      "last_updated": "2026-04-26T12:39:55.436Z"
+      "last_updated": "2026-04-26T13:04:03.396Z"
     },
     {
       "id": "e1c4f204-17bb-4088-90fb-17b8e28bc1b3",
@@ -1249,14 +1249,14 @@
       "phone": "0542-2367568",
       "emergency_available": 1,
       "total_beds": 1800,
-      "available_beds": 281,
+      "available_beds": 302,
       "icu_total": 150,
-      "icu_available": 33,
+      "icu_available": 29,
       "ventilators_total": 75,
-      "ventilators_available": 18,
+      "ventilators_available": 20,
       "specialties": "[\"All Specialties\",\"Super Specialties\",\"Ayurveda Integration\"]",
       "rating": 4.5,
-      "last_updated": "2026-04-26T12:39:55.438Z"
+      "last_updated": "2026-04-26T13:04:03.397Z"
     },
     {
       "id": "70187e39-0cf8-445f-9d5c-6e3d09325b76",
@@ -1269,14 +1269,14 @@
       "phone": "0671-2414080",
       "emergency_available": 1,
       "total_beds": 1100,
-      "available_beds": 143,
+      "available_beds": 147,
       "icu_total": 95,
-      "icu_available": 0,
+      "icu_available": 8,
       "ventilators_total": 48,
-      "ventilators_available": 3,
+      "ventilators_available": 2,
       "specialties": "[\"All Specialties\",\"Trauma Care\",\"Burn Unit\"]",
       "rating": 4.4,
-      "last_updated": "2026-04-26T12:39:55.440Z"
+      "last_updated": "2026-04-26T13:04:03.397Z"
     },
     {
       "id": "763df418-dede-481e-a43e-41859af315f5",
@@ -1291,12 +1291,12 @@
       "total_beds": 950,
       "available_beds": 133,
       "icu_total": 110,
-      "icu_available": 12,
+      "icu_available": 1,
       "ventilators_total": 55,
-      "ventilators_available": 7,
+      "ventilators_available": 5,
       "specialties": "[\"All Specialties\",\"Nephrology\",\"Urology\",\"Neurosciences\"]",
       "rating": 4.6,
-      "last_updated": "2026-04-26T12:39:55.443Z"
+      "last_updated": "2026-04-26T13:04:03.398Z"
     },
     {
       "id": "d62ee52a-690a-4937-9041-622a90d5125e",
@@ -1309,14 +1309,14 @@
       "phone": "0141-2560291",
       "emergency_available": 1,
       "total_beds": 2000,
-      "available_beds": 277,
+      "available_beds": 263,
       "icu_total": 180,
-      "icu_available": 55,
+      "icu_available": 58,
       "ventilators_total": 90,
-      "ventilators_available": 34,
+      "ventilators_available": 29,
       "specialties": "[\"All Specialties\",\"Trauma Center\",\"Burn Center\"]",
       "rating": 4.5,
-      "last_updated": "2026-04-26T12:39:55.445Z"
+      "last_updated": "2026-04-26T13:04:03.398Z"
     },
     {
       "id": "cd06d4bd-d9d8-422a-86ef-0f11a47e7d26",
@@ -1329,14 +1329,14 @@
       "phone": "0413-2272380",
       "emergency_available": 1,
       "total_beds": 3000,
-      "available_beds": 386,
+      "available_beds": 361,
       "icu_total": 250,
-      "icu_available": 52,
+      "icu_available": 50,
       "ventilators_total": 125,
-      "ventilators_available": 5,
+      "ventilators_available": 3,
       "specialties": "[\"All Specialties\",\"Research\",\"Medical Education\"]",
       "rating": 4.8,
-      "last_updated": "2026-04-26T12:39:55.449Z"
+      "last_updated": "2026-04-26T13:04:03.399Z"
     },
     {
       "id": "d2e54dfb-9696-4c11-8a20-944ec8289754",
@@ -1349,14 +1349,14 @@
       "phone": "0361-2524555",
       "emergency_available": 1,
       "total_beds": 1200,
-      "available_beds": 158,
+      "available_beds": 160,
       "icu_total": 100,
-      "icu_available": 2,
+      "icu_available": 1,
       "ventilators_total": 50,
-      "ventilators_available": 21,
+      "ventilators_available": 7,
       "specialties": "[\"All Specialties\",\"Neurosciences\",\"Cardiology\"]",
       "rating": 4.4,
-      "last_updated": "2026-04-26T12:39:55.451Z"
+      "last_updated": "2026-04-26T13:04:03.399Z"
     },
     {
       "id": "1a224060-b4cb-4c09-970d-a7903a3ed7ba",
@@ -1369,14 +1369,14 @@
       "phone": "0175-2212000",
       "emergency_available": 1,
       "total_beds": 700,
-      "available_beds": 86,
+      "available_beds": 102,
       "icu_total": 80,
-      "icu_available": 2,
+      "icu_available": 10,
       "ventilators_total": 40,
-      "ventilators_available": 17,
+      "ventilators_available": 16,
       "specialties": "[\"All Specialties\",\"Cardiology\",\"Nephrology\"]",
       "rating": 4.3,
-      "last_updated": "2026-04-26T12:39:55.453Z"
+      "last_updated": "2026-04-26T13:04:03.400Z"
     }
   ],
   "consultations": [
